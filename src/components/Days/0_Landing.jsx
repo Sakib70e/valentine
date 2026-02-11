@@ -11,6 +11,7 @@ const Landing = ({ onStart }) => {
                 animate={{ scale: 1 }}
                 transition={{ delay: 0.2, type: 'spring', stiffness: 200 }}
                 style={{ marginBottom: '2rem' }}
+                className="animate-heartbeat"
             >
                 <Heart size={64} color="var(--color-rose-red)" fill="var(--color-rose-red)" />
             </motion.div>
@@ -27,7 +28,7 @@ const Landing = ({ onStart }) => {
                     padding: '0 20px'
                 }}
             >
-                Our Valentine Journey
+                Our First Valentine Journey, Ahana
             </motion.h1>
 
             <motion.p
@@ -41,7 +42,7 @@ const Landing = ({ onStart }) => {
                     textAlign: 'center'
                 }}
             >
-                A week of love, memories, and surprises.
+                A week of love, memories, and surprises just for you.
             </motion.p>
 
             <motion.button

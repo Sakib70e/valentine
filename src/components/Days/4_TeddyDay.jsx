@@ -7,11 +7,11 @@ const TeddyDay = ({ onNext }) => {
 
     return (
         <TransitionWrapper className="flex-center" style={{ flexDirection: 'column', background: 'linear-gradient(135deg, #f0f8ff 0%, #e6e6fa 100%)' }}>
-            <h2 style={{ color: '#483d8b', marginBottom: '2rem' }}>Happy Teddy Day!</h2>
+            <h2 style={{ color: '#483d8b', marginBottom: '2rem' }}>A Cuddly Friend for You</h2>
 
             {!found ? (
                 <>
-                    <p style={{ marginBottom: '2rem', color: '#483d8b' }}>Where is your teddy hiding?</p>
+                    <p style={{ marginBottom: '2rem', color: '#483d8b' }}>Where is Ahana's teddy hiding?</p>
                     <div style={{ position: 'relative', width: '300px', height: '300px' }}>
                         {/* Hiding Spots */}
                         <motion.div
@@ -57,6 +57,7 @@ const TeddyDay = ({ onNext }) => {
                         initial={{ scale: 0, rotate: -180 }}
                         animate={{ scale: 2, rotate: 0 }}
                         transition={{ type: "spring" }}
+                        className="animate-heartbeat"
                         style={{ fontSize: '4rem', marginBottom: '2rem' }}
                     >
                         🧸

@@ -48,7 +48,7 @@ const ValentineDay = () => {
                         transition={{ delay: 0.5 }}
                         style={{ color: '#d6336c', marginBottom: '1.5rem', fontFamily: 'Outfit, sans-serif' }}
                     >
-                        Happy Valentine's Day!
+                        Happy First Valentine's Day, Ahana! ❤️
                     </motion.h1>
 
                     <motion.p
@@ -57,9 +57,9 @@ const ValentineDay = () => {
                         transition={{ delay: 0.8 }}
                         style={{ fontSize: '1.2rem', color: '#555', lineHeight: '1.6', marginBottom: '2rem' }}
                     >
-                        Thank you for walking this journey with me. Every day is special when you are in it.
+                        From the moment I met you, my life became a beautiful journey. This is just our first Valentine of many more to come.
                         <br /><br />
-                        Will you be my Valentine?
+                        I love you, Ahana. Will you be my Valentine forever?
                     </motion.p>
 
                     <motion.div

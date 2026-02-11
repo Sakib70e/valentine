@@ -7,7 +7,7 @@ const ChocolateDay = ({ onNext }) => {
 
     return (
         <TransitionWrapper className="flex-center" style={{ flexDirection: 'column', background: 'linear-gradient(135deg, #d2691e 0%, #8b4513 100%)', color: '#fff' }}>
-            <h2 style={{ marginBottom: '2rem', textShadow: '0 2px 4px rgba(0,0,0,0.3)' }}>Happy Chocolate Day!</h2>
+            <h2 style={{ marginBottom: '2rem', color: 'rgba(240, 255, 32, 1)', textShadow: '0 2px 4px rgba(0, 0, 0, 0.3)', textAlign: 'center' }}>Sweets for my sweet Ahana! 🍫</h2>
 
             {!unwrapped ? (
                 <motion.div

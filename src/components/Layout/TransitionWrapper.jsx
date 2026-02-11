@@ -7,7 +7,7 @@ const variants = {
     exit: { opacity: 0, x: -50, scale: 0.95 }
 };
 
-const TransitionWrapper = ({ children, className = "" }) => {
+const TransitionWrapper = ({ children, className = "", style = {}, ...props }) => {
     return (
         <motion.div
             className={className}
@@ -16,7 +16,8 @@ const TransitionWrapper = ({ children, className = "" }) => {
             animate="animate"
             exit="exit"
             transition={{ duration: 0.6, ease: "easeInOut" }}
-            style={{ width: '100%', height: '100%' }}
+            style={{ width: '100%', height: '100%', ...style }}
+            {...props}
         >
             {children}
         </motion.div>

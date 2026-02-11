@@ -32,9 +32,9 @@ const PromiseDay = ({ onNext }) => {
                     }}
                 >
                     <p style={{ marginBottom: '1.5rem', fontFamily: 'serif', fontStyle: 'italic', fontSize: '1.2rem', color: '#555' }}>
-                        "I promise to always be by your side, through thick and thin."
+                        "Ahana, I promise to always represent love, patience, and home to you."
                     </p>
-                    <p style={{ marginBottom: '1rem', fontSize: '0.9rem', color: '#888' }}>Make a promise to yourself or them:</p>
+                    <p style={{ marginBottom: '1rem', fontSize: '0.9rem', color: '#888' }}>Make your first valentine promise:</p>
                     <form onSubmit={handleSign}>
                         <input
                             type="text"

@@ -15,7 +15,7 @@ const RoseDay = ({ onNext }) => {
             <h2 style={{ color: 'var(--color-rose-red)', marginBottom: '2rem' }}>Happy Rose Day!</h2>
 
             <p style={{ marginBottom: '2rem', textAlign: 'center', maxWidth: '300px' }}>
-                Click the rose to make it bloom just for you.
+                For my beautiful Ahana, a rose that blooms just like my love for you.
             </p>
 
             <motion.div

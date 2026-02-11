@@ -23,7 +23,7 @@ const KissDay = ({ onNext }) => {
     return (
         <TransitionWrapper
             className="flex-center"
-            style={{ flexDirection: 'column', background: 'linear-gradient(135deg, #ff69b4 0%, #ff1493 100%)', overflow: 'hidden', position: 'relative' }}
+            style={{ flexDirection: 'column', background: 'linear-gradient(135deg, #ffbddeff 0%, #ffe2f1ff 100%)', overflow: 'hidden', position: 'relative' }}
         >
             <div
                 style={{ position: 'absolute', inset: 0, zIndex: 0 }}
@@ -31,8 +31,8 @@ const KissDay = ({ onNext }) => {
             />
 
             <div style={{ position: 'relative', zIndex: 1, textAlign: 'center', pointerEvents: 'none' }}>
-                <h2 style={{ color: '#ff1493', marginBottom: '2rem', textShadow: '0 2px 5px rgba(0,0,0,0.2)' }}>Happy Kiss Day!</h2>
-                <p style={{ color: '#ff1493', marginBottom: '2rem', opacity: 0.9 }}>Tap anywhere to send a kiss!</p>
+                <h2 style={{ marginBottom: '1rem', zIndex: 1, color: '#d6336c' }}>A Kiss for Ahana 😘</h2>
+                <p style={{ marginBottom: '2rem', zIndex: 1, color: '#c21e56' }}>Tap anywhere to catch my kisses!</p>
 
                 <div style={{ fontSize: '1.5rem', color: '#ff1493', fontWeight: 'bold' }}>
                     Kisses Sent: {count}

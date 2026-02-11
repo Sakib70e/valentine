@@ -48,11 +48,11 @@ const HugDay = ({ onNext }) => {
 
     return (
         <TransitionWrapper className="flex-center" style={{ flexDirection: 'column', background: 'linear-gradient(135deg, #fff5ee 0%, #ffdab9 100%)' }}>
-            <h2 style={{ color: '#cd853f', marginBottom: '2rem' }}>Happy Hug Day!</h2>
+            <h2 style={{ color: '#cd853f', marginBottom: '2rem' }}>A Big Hug for Ahana!</h2>
 
             {!hugged ? (
                 <>
-                    <p style={{ marginBottom: '2rem', color: '#8b4513' }}>Hold the button to send a warm hug!</p>
+                    <p style={{ marginBottom: '2rem', color: '#8b4513' }}>Hold the button to send me a warm hug!</p>
 
                     <div style={{ position: 'relative', width: '150px', height: '150px' }}>
                         {/* Progress Ring Background */}

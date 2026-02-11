@@ -18,13 +18,13 @@ const ProposeDay = ({ onNext }) => {
     return (
         <TransitionWrapper className="flex-center" style={{ flexDirection: 'column', background: 'linear-gradient(135deg, #fff0f5 0%, #ffc0cb 100%)' }}>
             <h2 style={{ color: 'var(--color-passionate-red)', marginBottom: '1.5rem', textAlign: 'center' }}>
-                Happy Propose Day!
+                My Dearest Ahana...
             </h2>
 
             {!accepted ? (
                 <>
-                    <p style={{ marginBottom: '3rem', fontSize: '1.2rem' }}>
-                        Will you accept my love?
+                    <p style={{ marginBottom: '3rem', fontSize: '1.2rem', textAlign: 'center', padding: '0 20px' }}>
+                        You make my world brighter. Will you be mine forever?
                     </p>
 
                     <div style={{ display: 'flex', gap: '2rem', position: 'relative' }}>
@@ -32,6 +32,7 @@ const ProposeDay = ({ onNext }) => {
                             whileHover={{ scale: 1.1 }}
                             whileTap={{ scale: 0.9 }}
                             onClick={() => setAccepted(true)}
+                            className="animate-heartbeat"
                             style={{
                                 padding: '12px 30px',
                                 fontSize: '1.1rem',

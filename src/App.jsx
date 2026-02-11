@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { AnimatePresence } from 'framer-motion';
 import BackgroundMusic from './components/Shared/BackgroundMusic';
+import FloatingHearts from './components/Shared/FloatingHearts';
 import TransitionWrapper from './components/Layout/TransitionWrapper';
 import Landing from './components/Days/0_Landing';
 import RoseDay from './components/Days/1_RoseDay';
@@ -43,11 +44,12 @@ function App() {
   };
 
   return (
-    <div className="app-container">
+    <div className="app-container gradient-bg-anim" style={{ background: 'linear-gradient(135deg, #fff0f5, #ffe4e1, #fff0f5, #ffc0cb)', position: 'relative', overflow: 'hidden', height: '100vh', width: '100vw' }}>
+      <FloatingHearts />
       <BackgroundMusic />
 
       <AnimatePresence mode="wait">
-        <div key={currentDay} style={{ width: '100%', height: '100%', position: 'absolute' }}>
+        <div key={currentDay} style={{ width: '100%', height: '100%', position: 'absolute', zIndex: 1 }}>
           {renderDay()}
         </div>
       </AnimatePresence>
