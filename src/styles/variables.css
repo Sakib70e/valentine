@@ -1,0 +1,42 @@
+:root {
+  /* Color Palette - Romantic & Soft */
+  --color-crm-bg: #fff0f5; /* Lavender Blush */
+  --color-soft-pink: #ffe4e1; /* Misty Rose */
+  --color-rose-red: #d6336c; /* Deep Rose */
+  --color-passionate-red: #c21e56; /* Stronger Red */
+  --color-gold: #ffd700; /* Gold Accents */
+  --color-text-dark: #4a4a4a; /* Soft Black */
+  --color-text-light: #f8f9fa; /* Off White */
+
+  /* Typography */
+  --font-heading: 'Outfit', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+
+  /* Transitions */
+  --transition-fast: 0.3s ease;
+  --transition-slow: 0.8s ease-in-out;
+}
+
+body {
+  background-color: var(--color-crm-bg);
+  color: var(--color-text-dark);
+  font-family: var(--font-body);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+h1, h2, h3 {
+  font-family: var(--font-heading);
+  color: var(--color-passionate-red);
+}
+
+button {
+  font-family: var(--font-body);
+}

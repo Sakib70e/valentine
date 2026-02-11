@@ -1,0 +1,76 @@
+@import './variables.css';
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--color-soft-pink);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-rose-red);
+    border-radius: 4px;
+}
+
+/* Utility Classes */
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem !important;
+    }
+
+    h2 {
+        font-size: 1.5rem !important;
+    }
+
+    p {
+        font-size: 1rem !important;
+        padding: 0 1rem;
+        line-height: 1.5;
+    }
+
+    .app-container {
+        padding: 0.5rem;
+        overflow-x: hidden;
+    }
+
+    button {
+        padding: 10px 20px !important;
+        font-size: 1rem !important;
+    }
+}
