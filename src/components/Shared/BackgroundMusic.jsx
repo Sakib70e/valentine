@@ -26,7 +26,7 @@ const BackgroundMusic = () => {
             {/* Placeholder for actual audio file - needing a source */}
             <audio ref={audioRef} loop>
                 {/* Using a reliable placeholder. For a true romantic feel, place a file named 'music.mp3' in the public folder and change src to "/music.mp3" */}
-                <source src="/music.mp3" type="audio/mp3" />
+                <source src={`${import.meta.env.BASE_URL}music.mp3`} type="audio/mp3" />
             </audio>
 
             <motion.button
